@@ -13,6 +13,9 @@ import java.util.List;
 @SuppressWarnings("all")
 public class ClassUtils {
 
+    /**
+     * 获取interface当前包内的实例class
+     * */
     public static List<Class> getAllClassesByInterface(Class c) throws IOException, ClassNotFoundException {
         List<Class> returnClasses = new ArrayList<Class>();
 
