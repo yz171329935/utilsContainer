@@ -15,6 +15,7 @@ public class ClassUtils {
 
     /**
      * 获取interface当前包内的实例class
+     * @return List<Class>
      * */
     public static List<Class> getAllClassesByInterface(Class c) throws IOException, ClassNotFoundException {
         List<Class> returnClasses = new ArrayList<Class>();
